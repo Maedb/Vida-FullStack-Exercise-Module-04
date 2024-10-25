@@ -36,10 +36,13 @@
 
 @media (max-width: 1110px) {
     body {
-        background-position-x: -70px !important;
+        background-position-x: -70px;
     }
 }
 
-@media (max-width: 1024px) {
-    body {}
+@media (max-width: 915px) {
+    body {
+        background-position: left -200px;
+        background-color: #b1f4ff
+    }
 }
