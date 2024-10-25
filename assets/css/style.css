@@ -4,6 +4,7 @@
 /* Components */
 @import './header.css';
 @import './buttons.css';
+@import './main.css';
 
 /* Reset CSS */
 * {
@@ -11,10 +12,11 @@
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: "Montserrat", serif;
+    font-weight: 300;
     vertical-align: baseline;
     text-decoration: none;
-    font-family: "Montserrat", serif;
+
 }
 
 .container {

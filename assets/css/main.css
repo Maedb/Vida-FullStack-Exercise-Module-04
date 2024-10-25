@@ -1,0 +1,36 @@
+.about-web-design {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-web-design article {
+    width: 300px;
+}
+
+.about-web-design article h1 {
+    font-size: 70px;
+    line-height: 90%;
+    font-weight: 500;
+    color: #333366;
+}
+
+.about-web-design article h2,
+.about-web-design article p {
+    color: #3399CC;
+}
+
+.about-web-design article h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 200%;
+
+}
+
+.about-web-design article p {
+    margin: 10px 0 40px;
+}
+
+.about-web-design figure img {
+    width: 650px;
+}
