@@ -1,3 +1,17 @@
+@media (min-width: 2200px) {
+    body {
+        background-size: 2000px;
+        background-color: #b1f4ff;
+        background-position: left -1100px;
+    }
+}
+
+@media (max-width: 2200px) {
+    body {
+        background-size: 1000px;
+    }
+}
+
 @media (max-width: 1920px) {
     body {
         background-size: 980px;
