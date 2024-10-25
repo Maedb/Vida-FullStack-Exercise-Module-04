@@ -1,0 +1,12 @@
+footer ul {
+    align-items: center;
+    margin: 0px 30px
+}
+
+footer ul li {
+    margin: 0 20px 0 0;
+}
+
+.socials {
+    width: 40px;
+}

@@ -5,6 +5,7 @@
 @import './header.css';
 @import './buttons.css';
 @import './main.css';
+@import './footer.css';
 
 /* Reset CSS */
 * {
@@ -13,10 +14,17 @@
     border: 0;
     font-size: 100%;
     font-family: "Montserrat", serif;
-    font-weight: 300;
+    font-weight: 400;
     vertical-align: baseline;
     text-decoration: none;
+    list-style: none;
+}
 
+body {
+    background-image: url(../../assets/images/bubble-background.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: rgba(177, 244, 255, 0.35);
 }
 
 .container {
@@ -29,8 +37,4 @@
 .row {
     display: flex;
     flex-direction: row;
-}
-
-.socials {
-    width: 40px;
 }
